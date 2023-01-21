@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+section header{
+    padding: 20px;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    align-items: center;
+}
+section header ul{
+    display: flex;
+}
+section header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+section header ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    font-weight: 500;
+}
+section header ul li a:hover{
+    text-decoration: underline;
+}
+section header ul li button{
+    border: none;
+    outline: none;
+    background-color: rgb(88, 142, 212);
+    padding: 8px 14px;
+    border-radius: 3px;
+    color: aliceblue;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+section .main {
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section .main .searching{
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+}
+section .main .searching .search{
+    position: relative;
+    width: 100%;
+    padding: 13px;
+    padding-left: 38px;
+    padding-right: 0px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+}
+section .main .searching .icon{
+    position: absolute;
+    padding: 12px 20px;
+    display: flex;
+    width: 100%;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+
+
+}
+section .main .btn{
+    margin-top: 30px;
+    cursor: pointer;   
+}
+
+section .main .btn .src_btn{
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 1px solid #111;
+    border-radius: 5px;
+}
+section .main .btn .exps_btn{
+    padding: 10px 25px;
+    border: 1px solid #111;
+    border-radius: 5px;
+}
+section .main .lang{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 15px;
+    color: #000;
+}
+
+section .main .lang a{
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+section .footer{
+    position: absolute;
+    width: 100%;
+
+    left: 0;
+    bottom: 0;
+    background: #f2f2f2;
+ 
+    
+    
+
+
+}
+section .footer .row{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(19, 3, 3, 0.07);
+    
+}
+
+section .footer .row ul{
+    display: flex;
+    
+
+}
+section .footer .row ul li {
+    list-style: none;
+}
+section .footer .row ul  li a{
+    text-decoration: none;
+    color: #5f6368;
+    margin-right: 25px;
+    font-size: 14px;
+    
+    
+}
